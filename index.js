@@ -23,8 +23,9 @@ class Neighborhood {
   }
   
   meals() {
-    store.meals.deliveries.filter
+    let deliveryOfMeals = store.meals.deliveries().filter(delivery => delivery.neighborhoodId === this.id);
     
+    return deliveryOfMeals.map(delivery => delivery.meal());
   }
 }
 
