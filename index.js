@@ -23,6 +23,7 @@ class Neighborhood {
   }
   
   meals() {
+    store.meals.deliveries.filter
     
   }
 }
