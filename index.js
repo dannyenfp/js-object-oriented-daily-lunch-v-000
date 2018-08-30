@@ -28,6 +28,8 @@ class Neighborhood {
     let ans =  deliveryOfMeals.map(delivery => delivery.meal());
     
     return (ans);
+  
+    return ans.filter((item,index,self) => self.indexOf(item)==index);
   }
 }
 
