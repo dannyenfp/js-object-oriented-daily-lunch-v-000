@@ -27,7 +27,7 @@ class Neighborhood {
     
     let ans =  deliveryOfMeals.map(delivery => delivery.meal());
     
-    console.log(ans);
+    return (ans);
   }
 }
 
